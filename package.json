@@ -1,1 +1,32 @@
-ewogICJuYW1lIjogImNvZGVnZW5pdXMtbmV4dCIsCiAgInZlcnNpb24iOiAiMC4xLjAiLAogICJwcml2YXRlIjogdHJ1ZSwKICAiZGVzY3JpcHRpb24iOiAiTmV4dC1nZW5lcmF0aW9uIEFJLXBvd2VyZWQgZGV2ZWxvcG1lbnQgcGxhdGZvcm0iLAogICJzY3JpcHRzIjogewogICAgImRldiI6ICJuZXh0IGRldiIsCiAgICAiYnVpbGQiOiAibmV4dCBidWlsZCIsCiAgICAic3RhcnQiOiAibmV4dCBzdGFydCIsCiAgICAibGludCI6ICJuZXh0IGxpbnQiCiAgfSwKICAiZGVwZW5kZW5jaWVzIjogewogICAgInJlYWN0IjogIl4xOC4yLjAiLAogICAgInJlYWN0LWRvbSI6ICJeMTguMi4wIiwKICAgICJuZXh0IjogIjE0LjAuMyIsCiAgICAiQGFudGhyb3BpYy1haS9zZGsiOiAiXjAuMTAuMCIsCiAgICAiQG1vbmFjby1lZGl0b3IvcmVhY3QiOiAiXjQuNi4wIiwKICAgICJ0YWlsd2luZGNzcyI6ICJeMy4zLjAiLAogICAgIkBoZXJvaWNvbnMvcmVhY3QiOiAiXjIuMC4xOCIsCiAgICAienVzdGFuZCI6ICJeNC40LjciCiAgfSwKICAiZGV2RGVwZW5kZW5jaWVzIjogewogICAgInR5cGVzY3JpcHQiOiAiXjUuMy4yIiwKICAgICJAdHlwZXMvbm9kZSI6ICJeMjAuMTAuMCIsCiAgICAiQHR5cGVzL3JlYWN0IjogIl4xOC4yLjM5IiwKICAgICJlc2xpbnQiOiAiXjguNTQuMCIsCiAgICAicHJldHRpZXIiOiAiXjMuMS4wIgogIH0KfQ==
+{
+  "content": {
+    "name": "codegenius-next",
+    "version": "0.1.0",
+    "private": true,
+    "description": "Next-generation AI-powered development platform",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "next": "14.0.3",
+      "@anthropic-ai/sdk": "^0.10.0",
+      "@monaco-editor/react": "^4.6.0",
+      "tailwindcss": "^3.3.0",
+      "@heroicons/react": "^2.0.18",
+      "zustand": "^4.4.7"
+    },
+    "devDependencies": {
+      "typescript": "^5.3.2",
+      "@types/node": "^20.10.0",
+      "@types/react": "^18.2.39",
+      "eslint": "^8.54.0",
+      "prettier": "^3.1.0"
+    }
+  },
+  "encoding": "utf-8"
+}
